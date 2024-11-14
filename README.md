@@ -1,3 +1,21 @@
+# laravel-php-crud-api
+
+## Setup
+
+- Be sure to have [PHP, Composer, and the Laravel installer](https://laravel.com/docs/11.x) downloaded on your machine
+- Run `npm i`
+- Run `php artisan serve`
+
+## Functionality
+
+Basic CRUD API using Laravel and PHP and a SQlite database, enabling a user to:
+- `GET /api/articles` Get all articles
+- `GET /api/articles/{id}` Get one article
+- `POST /api/articles` Create an article
+- `PUT /api/articles/{id}` Update an article
+- `DELETE /api/articles/{id}` Delete an article
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
